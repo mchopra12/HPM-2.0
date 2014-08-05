@@ -1,20 +1,33 @@
 // Sample code for the prepopulation of the fields
 
 
-// Sample implementation for the type of bank transfer
+// Sample implementation for the type of bank transfer ACH
 var prepopulateFields = {
-    creditCardAddress1:"", // refers to the credit card address which will reflect in the iframe
-    creditCardAddress2:"", // refers to the credit card address which will reflect in the iframe
-    creditCardCountry:"", // refers to the credit card country which will reflect in the iframe
-    creditCardState:"", // refers to the credit card state which will reflect in the iframe
-    creditCardHolderName:"" // refers to the credit card holder name which will reflect in the iframe
+    aba/routingnumber:"", // refers to the bank routing number which will reflect in the iframe
+    bank account number:"", // refers to the bank account number which will reflect in the iframe
+    account type:"", // refers to the type of bank account which will reflect in the iframe
+    bank name:"", // refers to the bank name which will reflect in the iframe
+    name on account:"" // refers to the account holder name which will reflect in the iframe
 };
 
 // Sample implementation for the type of DirectDebit
 var prepopulateFields = {
-    creditCardAddress1:"", // refers to the credit card address which will reflect in the iframe
-    creditCardAddress2:"", // refers to the credit card address which will reflect in the iframe
-    creditCardCountry:"", // refers to the credit card country which will reflect in the iframe
-    creditCardState:"", // refers to the credit card state which will reflect in the iframe
-    creditCardHolderName:"" // refers to the credit card holder name which will reflect in the iframe
+    account number:"", // refers to the credit card address which will reflect in the iframe
+    account name:"", // refers to the credit card address which will reflect in the iframe
+    bank code:"", // refers to the credit card country which will reflect in the iframe
+    bank name:"", // refers to the credit card state which will reflect in the iframe
+    
+    first name:"" // refers to the credit card holder name which will reflect in the iframe
+    last name:"", // refers to the credit card address which will reflect in the iframe
+    street number:"", // refers to the credit card address which will reflect in the iframe
+    street name:"", // refers to the credit card country which will reflect in the iframe
+    city:"", // refers to the credit card state which will reflect in the iframe
+    state:"" // refers to the credit card holder name which will reflect in the iframe
+    postal code:"", // refers to the credit card address which will reflect in the iframe
+    
+    mandate received:"", // refers to the credit card address which will reflect in the iframe
+    existing mandate:"", // refers to the credit card country which will reflect in the iframe
+    mandate id:"", // refers to the credit card state which will reflect in the iframe
+    creation date:"" // refers to the credit card holder name which will reflect in the iframe
+    update date:"", // refers to the credit card address which will reflect in the iframe
 };
