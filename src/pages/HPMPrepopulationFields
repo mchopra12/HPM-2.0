@@ -1,2 +1,20 @@
 // Sample code for the prepopulation of the fields
 
+
+// Sample implementation for the type of bank transfer
+var prepopulateFields = {
+    creditCardAddress1:"", // refers to the credit card address which will reflect in the iframe
+    creditCardAddress2:"", // refers to the credit card address which will reflect in the iframe
+    creditCardCountry:"", // refers to the credit card country which will reflect in the iframe
+    creditCardState:"", // refers to the credit card state which will reflect in the iframe
+    creditCardHolderName:"" // refers to the credit card holder name which will reflect in the iframe
+};
+
+// Sample implementation for the type of DirectDebit
+var prepopulateFields = {
+    creditCardAddress1:"", // refers to the credit card address which will reflect in the iframe
+    creditCardAddress2:"", // refers to the credit card address which will reflect in the iframe
+    creditCardCountry:"", // refers to the credit card country which will reflect in the iframe
+    creditCardState:"", // refers to the credit card state which will reflect in the iframe
+    creditCardHolderName:"" // refers to the credit card holder name which will reflect in the iframe
+};
